@@ -1,0 +1,31 @@
+# Core Dependencies
+behave==1.2.6                 # Core BDD framework
+selenium==4.4.3               # Web automation library
+webdriver-manager==4.0.1      # Simplifies WebDriver management
+python-dotenv==0.21.0         # Manage environment variables
+requests==2.28.1              # For API interactions, if needed
+parse==1.19.0                 # Required by Behave
+parse-type==0.6.0             # Enhanced parsing for Behave
+pytest-selenium==2.0.0        # Integrate pytest features with Selenium
+
+# Logging and Reporting
+loguru==0.6.0                 # Advanced logging
+allure-behave==2.9.43         # For generating Allure reports
+
+# Test Data Generation
+Faker==18.3.1                 # Generate dynamic test data
+
+# Performance and Execution
+pytest==7.2.2                 # Additional unit testing framework
+pytest-xdist==3.2.1           # For parallel execution
+pytest-parallel==0.1.0        # Enables Behave test parallelism
+
+# Code Quality and Type Checking
+pylint==2.17.5                # For linting and enforcing code quality
+flake8==6.0.0                 # Lightweight code linting
+mypy==1.4.0                   # Type checking for better code quality
+
+# Utilities
+tqdm==4.64.1                  # Progress bar for scripts
+certifi==2022.12.7            # SSL certificate verification
+urllib3==1.26.12              # Required by requests
