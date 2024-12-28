@@ -13,12 +13,12 @@ This repository serves as a centralized location for managing Python project dep
 
 To use this repository in your project, follow these steps:
 
-### 1. Clone This Repository
+#### 1. Clone This Repository
 ```bash
 git clone <repository-url>
 cd python-generic-dependencies
 ```
-### 2. Install dependencies
+#### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
